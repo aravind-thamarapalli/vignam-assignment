@@ -137,7 +137,7 @@ export default function FeaturesSection() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="bg-gray-50 rounded-2xl p-8"
+            className="bg-gray-50 rounded-none p-8 border-l-2 border-l-blue-500"
           >
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0">
